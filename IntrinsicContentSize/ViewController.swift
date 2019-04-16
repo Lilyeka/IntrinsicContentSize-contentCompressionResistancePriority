@@ -45,8 +45,8 @@ class ViewController: UIViewController {
                 "H:[v1(>=100)]-(>=20)-[v2(>=100)]", metrics: nil, views: d)
             ].flatMap{$0})
         
-        let p = textField1.contentCompressionResistancePriority(for: .horizontal)
-        textField2.setContentCompressionResistancePriority(p+1, for: .horizontal)
+        let p = textField2.contentCompressionResistancePriority(for: .horizontal)
+        textField1.setContentCompressionResistancePriority(p+1, for: .horizontal)
     }
 
 
